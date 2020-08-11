@@ -8,7 +8,7 @@ module.exports.run = async(bot, message, args) => {
         message.channel.delete();
         let Embed = new discord.MessageEmbed()
             .setTitle(`Ticket Closed!`)
-            .setDescription(`Ticket Name: ${message.channel.name}\n**Gesloten door: <@${message.author.id}>`)
+            .setDescription(`**Ticket Name:** ${message.channel.name}\n**Gesloten door:** <@${message.author.id}>`)
             .setColor(`#eb4034`)
             .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
         logChannel.send(Embed);
