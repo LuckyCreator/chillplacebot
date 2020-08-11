@@ -1,12 +1,9 @@
 const discord = require("discord.js");
 
 module.exports.run = async(bot, message, args) => {
+    
+    var logChannel = message.guild.channels.cache.find(channel => channel.name === "╸log");
 
-    let logChannel = {
-        logChannel: "715290718608031785"
-    
-    }
-    
     if(message.guild.me.hasPermission(`MANAGE_CHANNELS`)) {
         message.channel.delete();
         let Embed = new discord.MessageEmbed()
