@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
         .setTitle(`Reaction Roles`)
         .setDescription("React to gain the role.")
         .setColor("#ed2a1c")
-        .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg")
+        .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
     let msgEmbed = await message.channel.send(embed)
     msgEmbed.react("✅")
 

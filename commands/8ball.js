@@ -13,7 +13,7 @@ module.exports.run = async(bot, message, args) => {
         .setTitle(`8Ball!`)
         .setDescription(`Je vraag: ${question}\nAntwoord: ${response}`)
         .setColor(`#ed2a1c`)
-        .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg");
+        .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
       message.channel.send(Embed);
     }
   }

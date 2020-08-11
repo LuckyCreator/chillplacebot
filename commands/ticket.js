@@ -60,7 +60,7 @@ module.exports.run = async(bot, message, args) => {
         .addField("1️⃣ Vragen \n2️⃣ Partner\n3️⃣ Sollicitatie\n4️⃣ Sponsor/donatie", "\n \n**Alvast bedankt.**")
         //.setDescription(`<@${message.author.id}> Je support ticket kanaal is <#${c.id}>`)
         .setTimestamp()
-        .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg")
+        .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
             
     var embedSend = await message.channel.send(GreetEmbed)
     embedSend.react("1️⃣")
@@ -103,7 +103,7 @@ module.exports.run = async(bot, message, args) => {
                     .addField(`**__Ticket Bericht:__** \n ** **\n`, `<@${message.author.id}> U heeft succesvol een ticket aangemaakt!.\nIn dit kanaal kunt u alles uittypen.`)
                     .addField("Benodigdheden:", "**1.** Hoeveel leden heeft u?\n**2.** Hoe lang bestaat u al?\n**3.** Wat verwacht u van ons?\n**4.** Beoordeel uw Discord kwa actief 1 t/m 10! \n ** ** \nCategorie: **Partner**")
                     .setTimestamp()
-                    .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg")
+                    .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
                 c.send(CreatedTicketEmbed)
             }).catch(console.error); 
         }
@@ -143,7 +143,7 @@ module.exports.run = async(bot, message, args) => {
                     .setColor("#ed2a1c")
                     .addField(`Nieuw Support Ticket`, `<@${message.author.id}> Bedankt voor het aanmaken van een ticket. Je wordt zo spoedig mogelijk geholpen.`)
                     .setTimestamp()
-                    .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg")
+                    .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
                 c.send(CreatedTicketEmbed)
             }).catch(console.error); 
         }
@@ -183,7 +183,7 @@ module.exports.run = async(bot, message, args) => {
                     .setColor("#ed2a1c")
                     .addField(`Nieuw Support Ticket`, `<@${message.author.id}> Bedankt voor het aanmaken van een ticket. Je wordt zo spoedig mogelijk geholpen.`)
                     .setTimestamp()
-                    .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg")
+                    .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
                 c.send(CreatedTicketEmbed)
             }).catch(console.error); 
         }
@@ -227,7 +227,7 @@ module.exports.run = async(bot, message, args) => {
                     .setColor("#ed2a1c")
                     .addField(`Nieuw Support Ticket`, `<@${message.author.id}> Bedankt voor het aanmaken van een ticket. Je wordt zo spoedig mogelijk geholpen.`)
                     .setTimestamp()
-                    .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg")
+                    .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
                 c.send(CreatedTicketEmbed);        
                  
             }).catch(console.error); 

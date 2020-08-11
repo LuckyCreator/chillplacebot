@@ -9,7 +9,7 @@ module.exports.run = async(bot, message, args) => {
         .addField("**__Support__**", "!ticket - Maak een ticket aan.\n!close - Sluit een ticket.\n!partner - Zie wat je nodig hebt voor partner.")
         .addField("**__Staff__**", "t")
         .setTimestamp()
-        .setFooter("Wessel | Youtube", "https://i.imgur.com/fRVi9vm.jpg")
+        .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
     message.channel.send(CreatedTicketEmbed)
 
 }
