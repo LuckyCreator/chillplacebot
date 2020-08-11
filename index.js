@@ -33,7 +33,7 @@ client.login(process.env.token);
 
 client.on("ready", async () => {
 
-    let myGuild = client.guilds.cache.get(`736321070533181502`);
+    let myGuild = client.guilds.cache.get(`714821162366009424`);
     let memberCount = myGuild.memberCount;
 
     client.user.setActivity(memberCount + ` leden!`, {type: "WATCHING"});
@@ -43,8 +43,8 @@ client.on("ready", async () => {
 });
 
 let countChannel = {
-    member: "736321070533181506",
-    serverID: "736321070533181502"
+    member: "742690392113152000",
+    serverID: "714821162366009424"
 
 }
 
