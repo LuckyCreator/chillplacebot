@@ -14,7 +14,7 @@ module.exports.run = async(bot, message, args) => {
             .setDescription(`Ticket Name: ${message.channel.name}\n**Gesloten door: <@${message.author.id}>`)
             .setColor(`#eb4034`)
             .setFooter("Chill Place | Official", "https://i.imgur.com/zSWTyii.jpg")
-        message.channel.send(Embed);
+        logChannel.send(Embed);
     }
 
     if(!message.guild.me.hasPermission(`MANAGE_CHANNELS`)) {
