@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
     message.delete()
     if(mChannel) {
         argsresult = args.slice(1).join(" ")
-        let sayEmbed = new discord.MessageEmbed()
+        let sayEmbed = new Discord.MessageEmbed()
             .setColor("#ed2a1c")
             .setTitle("**MELDING**")
             .setDescription(argsresult)
@@ -20,7 +20,7 @@ module.exports.run = async (bot, message, args) => {
         //mChannel.send(argsresult)
     }else {
         argsresult = args.join(" ")
-        let sayEmbed = new discord.MessageEmbed()
+        let sayEmbed = new Discord.MessageEmbed()
             .setColor("#ed2a1c")
             .setTitle("**MELDING**")
             .setDescription(argsresult)
