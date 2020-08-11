@@ -53,7 +53,7 @@ client.on("guildMemberAdd", member =>{
     client.user.setActivity(member.guild.memberCount + ` leden!`, {type: "WATCHING"});
     client.channels.cache.get(countChannel.member).setName(`╸Leden ${member.guild.memberCount}`);
 
-    const channel = member.guild.channels.cache.find(channel => channel.name === "welkom");
+    const channel = member.guild.channels.cache.find(channel => channel.name === "╸welkom");
     if(!channel) console.log("Heb geen welkomskanaal kunnen vinden.");
 
     var joinEmbed = new discord.MessageEmbed()
